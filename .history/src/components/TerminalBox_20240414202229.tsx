@@ -10,7 +10,7 @@ import Welcome from "./commands/Welcome";
 export default function TerminalBox() {
 	const [enteredCmd, setEnteredCmd] = useState([
 		{
-			cmd: "",
+			cmd: "clear",
 			Component: Welcome,
 			time: new Date().toLocaleTimeString(),
 		},

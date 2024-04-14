@@ -22,7 +22,7 @@ export default function About() {
 			</h1>
 			<p className="text-lg animate-reveal-0.7">
 				This site is purely written with React and Tailwindcss only. For the
-				deployment, we deploy it on Vercel.
+				deployment, We deploy it on Vercel.
 			</p>
 			<div className="flex gap-5 text-4xl">
 				{techs.map(({ Icon, color, duration }, index) => {

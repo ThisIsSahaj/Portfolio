@@ -14,7 +14,11 @@ export default function TerminalBox() {
 			Component: Welcome,
 			time: new Date().toLocaleTimeString(),
 		},
-
+		{
+			cmd: "ls",
+			Component: Help,
+			time: new Date().toLocaleTimeString(),
+		},
 	]);
 	const dummyRef = useRef() as React.MutableRefObject<HTMLDivElement>;
 	useEffect(() => {

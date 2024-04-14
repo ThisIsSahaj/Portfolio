@@ -1,7 +1,7 @@
+import React from "react";
 import { GoVerified } from "react-icons/go";
-import { SiGithub, SiLinkedin, SiTwitter, SiWhatsapp } from "react-icons/si";
-
-export default function Bio() {
+import { SiGithub, SiLinkedin, SiPatreon, SiTwitter, SiWhatsapp, SiYoutube } from "react-icons/si";
+export default function Projects() {
 	const links = [
 		{
 			title: "Github",
@@ -71,4 +71,5 @@ export default function Bio() {
 			</div>
 		</div>
 	);
+
 }

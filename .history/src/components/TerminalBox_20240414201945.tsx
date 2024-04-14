@@ -31,7 +31,7 @@ export default function TerminalBox() {
 	};
 
 	const handleKeyEvent = (e: KeyboardEvent) => {
-		if (e.ctrlKey && e.key.toLocaleLowerCase() === "l") {
+		if (e.ctrlKey && e.key.toLocaleLowerCase() === "o") {
 			setEnteredCmd([]);
 		}
 	};

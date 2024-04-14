@@ -1,7 +1,10 @@
-import { GoVerified } from "react-icons/go";
-import { SiGithub, SiLinkedin, SiTwitter, SiWhatsapp } from "react-icons/si";
+import React from "react";
 
-export default function Bio() {
+type HelpCmd = {
+	cmd: string;
+	detail: string;
+};
+export default function Projects() {
 	const links = [
 		{
 			title: "Github",
@@ -71,4 +74,5 @@ export default function Bio() {
 			</div>
 		</div>
 	);
+
 }

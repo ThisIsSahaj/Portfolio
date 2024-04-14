@@ -6,10 +6,9 @@ type HelpCmd = {
 };
 export default function Help() {
 	const listOfHelpCommands: HelpCmd[] = [
-		{ cmd: "bio", detail: "Show my bio" },
-		{ cmd: "skills", detail: "List my skills." },
-		{ cmd: "projects", detail: "Show my projects" },
-		{ cmd: "contact", detail: "Show my email" },
+		{ cmd: "bio", detail: "Show sahaj's bio" },
+		{ cmd: "skills", detail: "List all of my skills." },
+		{ cmd: "contact", detail: "List all of the contacts." },
 		{ cmd: "about", detail: "To see what is terminal portfolio." },
 		{ cmd: "ctrl + l", detail: "To clear the history." },
 	];

@@ -5,6 +5,7 @@ import Help from "../components/commands/Help";
 import NotFound from "../components/commands/NotFound";
 import Projects from "../components/commands/Projects";
 import Skills from "../components/commands/Skills";
+import Welcome from "../components/commands/Welcome";
 import { CmdHistory } from "../type";
 
 function renderCmd(cmd: string): CmdHistory {
@@ -37,6 +38,12 @@ function renderCmd(cmd: string): CmdHistory {
 			return {
 				cmd,
 				Component: Projects,
+				time: "",
+			};
+		case "clear":
+			return {
+				cmd,
+				Component: Welcome,
 				time: "",
 			};
 		case "about": {
