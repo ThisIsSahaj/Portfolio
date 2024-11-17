@@ -1,6 +1,6 @@
 import React from "react";
 import { GiGlobe, GiPerson } from "react-icons/gi";
-import { SiBitcoin, SiGnometerminal, SiGravatar, SiWindowsterminal } from "react-icons/si";
+import { SiBitcoin, SiFormstack, SiGnometerminal, SiGravatar, SiJavascript, SiWindowsterminal } from "react-icons/si";
 export default function Projects() {
 	const links = [
 		{
@@ -13,13 +13,19 @@ export default function Projects() {
 			title: "SnappCode",
 			Icon: SiWindowsterminal,
 			href: "https://snappcode.netlify.app/",
-			text: "Take beautiful screenshots of you code",
+			text: "Share beautiful screenshots of your code",
 		},
 		{
-			title: "Terminal Portfolio",
-			Icon: GiPerson,
-			href: "https://thisissahaj.vercel.app/",
-			text: "My terminal based portfolio",
+			title: "AForma",
+			Icon: SiFormstack,
+			href: "https://aforma.vercel.app/",
+			text: "Create form with AI",
+		},
+		{
+			title: "JS Projects | For Beginners",
+			Icon: SiJavascript,
+			href: "https://thisissahaj-js-projects.vercel.app/",
+			text: "Small easy js projects for beginners",
 		},
 	
 		
